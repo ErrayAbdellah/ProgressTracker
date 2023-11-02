@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="com.progressTracker.model.entities.User" >
+        <!-- Configure user properties -->
+    </bean>
+
+    <bean id="objective" class="com.progressTracker.model.entities.Objective">
+        <!-- Configure objective properties -->
+    </bean>
+
+    <bean id="iuser" class="com.progressTracker.model.IUser" abstract="true">
+<!--        <property name="user" ref="user" />-->
+<!--        <property name="objective" ref="objective" />-->
+    </bean>
+
+</beans>

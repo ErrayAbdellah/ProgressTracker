@@ -1,0 +1,4 @@
+com\progressTracker\Main.class
+com\progressTracker\model\entities\User.class
+com\progressTracker\model\IUser.class
+com\progressTracker\model\entities\Objective.class
